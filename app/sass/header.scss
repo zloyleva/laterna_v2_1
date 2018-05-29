@@ -1,0 +1,43 @@
+.container-fluid.first-row-header{
+  background-color: #15263E;
+  color: #fff;
+  .row{
+    .container{
+      .row{
+        align-items: center;
+        justify-content: space-between;
+        .contact{
+          margin-bottom: unset;
+          @include md-center;
+          @include xs-space-evenly;
+          li{
+            a{
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+        }
+        form{
+          justify-content: flex-end;
+          @include md-center;
+          button{
+            @include xs-w-100;
+          }
+        }
+      }
+    }
+  }
+}
+.container-fluid.second-row-header{
+  .row{
+    .container{
+      .row{
+        a.navbar-brand{
+          img{
+            max-width: 210px;
+          }
+        }
+      }
+    }
+  }
+}

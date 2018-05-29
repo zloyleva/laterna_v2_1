@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+
+    nodejs:
+      container_name: laterna-nodejs
+      build:
+        context: .
+        dockerfile: ./docker/nodejs/Dockerfile
+      volumes:
+       - .:/app
+      ports:
+       - '4200:4200'

@@ -1,0 +1,22 @@
+$desc_text_color: #747572;
+
+.content-section{
+  background-color: #f9faf5;
+  .row{
+    .container{
+      .row{
+        .col.div-img{
+          img{
+            width: 16px;
+          }
+        }
+        h2{
+          font-weight: 900;
+        }
+        p.desc{
+          color: $desc_text_color;
+        }
+      }
+    }
+  }
+}
